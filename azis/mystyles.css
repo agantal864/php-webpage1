@@ -1,0 +1,541 @@
+#homepage {
+  background-image: url(assets/bg8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* START of header CSS **/
+#font-name {
+  position: relative;
+  left: 3%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 600 ;
+  letter-spacing: 3px;
+  color: lightSeaGreen;
+  padding: 20px;
+}
+
+#logo {
+  position: relative;
+  left: 3%;
+}
+
+.nav-item {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.nav-hover-effect:hover {
+  color: lightSeaGreen;
+  padding-bottom: 10px;
+  border-bottom: 1.5px solid lightSeaGreen;
+}
+
+#nav-menu ul li.active a {
+  color: lightSeaGreen;
+}
+
+
+@media screen and (min-width: 1920px) {
+  #font-name {
+    position: relative;
+    left: 8%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 600 ;
+    letter-spacing: 3px;
+    color: lightSeaGreen;
+    padding: 20px;
+  }
+  #logo {
+    position: relative;
+    left: 8%;
+  }
+  .nav-item {
+    position: relative;
+    right: 10%;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+  }
+}
+
+.bg-light {
+  background: transparent !important;
+}
+
+.bg-light.scrolled {
+  background: #f2f1ed !important;
+}
+/*-- END of header CSS */
+
+/* START of body CSS */
+#main {
+  background: none;
+  padding-top: 5%;
+  margin-bottom: 20vw;
+}
+
+.word {
+  color: lightSeaGreen;
+}
+
+#intro {
+  text-align: center;
+}
+
+.quote {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1vw;
+  padding: 20px;
+  font-size: 1.6vw;
+}
+
+.line:after,
+.line:before{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    text-decoration: line-through;
+}
+
+#myprofile {
+  background-color: white;
+}
+
+.fonts {
+  font-family: 'Encode Sans', sans-serif;
+}
+
+.abt {
+  font-weight: 700;
+  padding: 2vw;
+  background-color: ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abt p {
+   margin: 0;
+}
+
+.abt-2 {
+  font-weight: 400;
+  padding: 2vw;
+  display: flex;
+  align-items: center
+}
+
+.abt-2 p {
+   margin: 0;
+}
+
+.prfl {
+  padding: 2vw;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prfl p {
+  font-weight: 700;
+  font-size: 4em;
+  color: lightSeaGreen;
+  margin: 0;
+}
+
+.descrip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.descrip p {
+  font-weight: 700;
+  margin: 0;
+}
+
+.details-title, .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-title h3 {
+  font-weight: 700;
+  margin: 0;
+  color: lightSeaGreen;
+}
+
+.my-img {
+  padding:2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-img img {
+  border-radius: 50%;
+}
+
+.my-details {
+  padding: 2vw;
+}
+
+.details-bold p {
+  margin: 0;
+  padding: 0.2vw;
+}
+
+.my-details p {
+  margin: 0;
+  padding: 0.2vw;
+}
+
+.details-bold {
+  font-weight: bold;
+}
+
+.my-details-2 {
+  padding: 2vw;
+}
+
+.my-details-2 p {
+  margin: 0;
+  padding: 0.2vw;
+}
+
+#myexperiences {
+  background-image: url(assets/pink.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  padding-bottom: 4vw;
+}
+
+.title-style {
+  letter-spacing: 0.08em;
+}
+
+.exp {
+  padding: 2vw;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp p {
+  color: lightSeaGreen;
+  font-weight: 700;
+  font-size: 4em;
+  margin: 0;
+}
+
+#expcontainer {
+  border: 2px solid white;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+}
+
+.education {
+  padding: 3vw;
+  padding-bottom: 2vw;
+}
+
+.education h3 {
+  font-weight: 700;
+  margin: 0;
+  color: lightSeaGreen;
+}
+
+.expr-2 {
+  padding: 3vw;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.expr-2 p {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.expr {
+  padding: 1vw;
+}
+
+.skills {
+  background-color: :  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), gray;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+.fa-html5 {
+  cursor: pointer;
+  color: #fd7e14;
+}
+
+.css3 {
+  cursor: pointer;
+  color: #264de4
+}
+
+.fa-react {
+  cursor: pointer;
+  color: #61DBFB;
+}
+
+.fa-php {
+  cursor: pointer;
+  color: #474A8A;
+}
+
+.fa-database {
+  cursor: pointer;
+  color: #f06595;
+}
+
+.js {
+  cursor: pointer;
+  color: #F0DB4F;
+}
+
+.btn-outline-success:hover  {
+  background-color: lightSeaGreen;
+}
+
+.size {
+  width: 300px;
+  height: 250px;
+  background-position: center center;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin: 0;
+}
+
+.caption {
+  text-align: center;
+}
+
+.center-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.img-fonts {
+  cursor: pointer;
+  font-family: 'Encode Sans', sans-serif;
+  color: #5a5a5a;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 10px;
+}
+
+.img-wrap {
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.img-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 250px;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #c3f6c3;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  border-radius: 8px;
+}
+
+.img-wrap:hover .img-description, .img-fonts:hover {
+  visibility: visible;
+  opacity: 0.9;
+}
+
+.stars {
+  letter-spacing: 0.05em;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.move {
+  position: absolute;
+  bottom: 10%;
+}
+
+.skl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skl p {
+  color: lightSeaGreen;
+  font-weight: 700;
+  font-size: 4em;
+  margin: 0;
+}
+
+/* END of body CSS */
+
+/* START of footer CSS */
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h3 {
+  padding: 0.5vw;
+  padding-top: 2vw;
+  font-weight: 700;
+  margin: 0;
+  color: lightSeaGreen;
+}
+
+.contact-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-desc {
+  text-align: center;
+}
+
+.contact p {
+  padding: 0.5vw;
+  font-weight: 700;
+  margin: 0;
+  color: lightSeaGreen;
+}
+
+.contact-details i{
+  padding: 0.5vw;
+}
+
+.soc {
+  color: #282828;
+}
+
+.soc-1:hover {
+  color: #3b5998;
+}
+
+.soc-2:hover {
+  color: #dc3545;;
+}
+
+.soc-3:hover {
+  color: #00acee;
+}
+
+.soc-4:hover {
+  color: #AD5C51;
+}
+
+/* END of footer CSS */
+
+/* START of Form CSS (Contacts.php) */
+#my_form {
+  background-color: #e0e2e4;
+  height: auto;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;\
+}
+
+form {
+  letter-spacing: 0.1em;
+  padding: 60px 80px 80px 80px;
+}
+
+fieldset {
+  padding: 20px 50px;
+  margin: 20px 0;
+  border: 3px solid lightSeaGreen;
+}
+
+legend {
+  color: lightSeaGreen;
+  width: auto;
+  padding: 10px;
+  letter-spacing: 0.1em;
+}
+
+button[type="submit"] {
+  background: lightSeaGreen;
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0,5);
+  width: 200px;
+}
+
+input[type="email"], input[type="telephone"] {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 10px 10px 50px;
+  border-radius: 4px;
+  background: url(assets/img/inputs.png) no-repeat;
+  background-color: white;
+  font-size: 16px;
+  float: left;
+  clear: both;
+}
+
+input[type="email"] {
+  background-position: 7px 8px;
+}
+
+
+input[type="telephone"] {
+  background-position: 7px -58px;
+}
+/* END of Form CSS */
